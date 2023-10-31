@@ -18,3 +18,11 @@ app.get("/about", (req, res) => {
 app.get("/home", (req, res) => {
   res.sendFile(__dirname + "/views/home-page.html");
 });
+
+app.get("/works", (req, res) => {
+  res.sendFile(__dirname + "/views/works-page.html");
+});
+
+app.get("/photo-gallery", (req, res) => {
+  res.sendFile(__dirname + "/views/photo-gallery-page.html");
+});
